@@ -38,7 +38,7 @@ FROM
 INNER JOIN skills_job_dim
 ON Skills_job_dim.job_id = top_paying_job.job_id
 INNER JOIN skills_dim
-ON Skills_job_dim.skill_id = skills_dim.skill_id
+ON Skills_job_dim.skill_id = skills_dim.skill_id;
 
 /* 
 Analysis of the highest-paying remote Data Analyst postings ($135K–$165K) reveals a clear skill hierarchy:

@@ -15,7 +15,7 @@ SELECT
     job_postings_fact.job_posted_date
 FROM 
     job_postings_fact
--- The addition of the company's information aids application 
+-- The addition of the company's information aids the application process
 LEFT JOIN company_dim As company
 ON company.company_id = job_postings_fact.company_id
 WHERE 
